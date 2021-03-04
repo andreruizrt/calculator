@@ -1,8 +1,9 @@
 import React from 'react';
+import aleatorio from "./aleatorio";
 
 export default (props) => {
     const { min, max } = props;
-    const aleatorio = Math.floor(Math.random() * (max - min)) + min;
+    const resultado = aleatorio(min, max);
 
     return (
         <div>
@@ -18,7 +19,7 @@ export default (props) => {
             </p>
             <p>
                 Aleatório:
-                <strong> { aleatorio }</strong>
+                <strong> { resultado }</strong>
             </p>
         </div>
     );

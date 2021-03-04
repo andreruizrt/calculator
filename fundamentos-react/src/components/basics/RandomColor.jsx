@@ -1,9 +1,9 @@
+import { corAleatoria } from './aleatorio';
 import React from 'react';
 
 export default () => {
     
-    var bg_colour = Math.floor(Math.random() * 16777215).toString(16);
-    bg_colour = "#" + ("000000" + bg_colour).slice(-6);
+    const bg_colour = corAleatoria();
     
     const styles = {
         fontSize: "30px",
