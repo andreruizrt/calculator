@@ -1,0 +1,13 @@
+.IndiretaFilho button {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: darkslategrey;
+    color: beige;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.IndiretaFilho button:hover {
+    background-color: orange;
+    color: black;
+}
