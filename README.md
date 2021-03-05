@@ -1,5 +1,5 @@
 ## Calculator
-# git clone https://github.com/andreruizrt/calculator/
+git clone https://github.com/andreruizrt/calculator/
 
 ## run
 cd /calculator && npm start
